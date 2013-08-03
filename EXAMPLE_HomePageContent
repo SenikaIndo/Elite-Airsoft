@@ -1,0 +1,161 @@
+This is the Home Page content used in the online example at http://kenmoini.com/dropBox/tnea/
+Copy and paste into a WP Page, select Default Template
+
+<h2>CQB Airsoft Field and Shop in Old Hickory, Tennessee</h2>
+Get ready for a day of dodging bb's and competing with friends at our Old Hickory, Tennessee location, airsoft playing field. <strong>Elite Airsoft</strong> is the result of our love for all things airsoft and are a family-owned company with our own field for players ages 10 and older.
+<div class="five columns homeTopThree">
+	<h4>Instastream</h4>
+	<div id="instastream">
+		[simply_instagram endpoints="media" type="popular" size="thumbnail" display="12"]
+		<!-- The Simply Instagram Shortcode Settings are:
+			Display Photo Information: Simply Instagram Media Viewer
+			Comments to display in Media Viewer: 5
+			Show Photographer: No
+			Display photo comment: 0
+			Display Statistics: No
+			Show Description: No
+		-->
+	</div>
+</div>
+<div class="five columns homeTopThree">
+	<h4>Operation Parameters</h4>
+	<p><strong>Open:</strong> Wed-Sun, 10am-7pm<br />
+	<strong>Field Hours:</strong> Sat-Sun, 10am-7pm</p>
+	<ul>
+		<li><a href="#">Field Waiver</a></li>
+		<li><a href="#">Field & Course Rules</a></li>
+	</ul>
+</div>
+<div id="home-ordinance" class="five columns homeTopThree">
+	<h4>Ordinance</h4>
+	Some supplementary information that will aid in your Elite Airsoft experience.
+	<ul>
+		<li><a href="#">Find Fans on Facebook</a></li>
+		<li><a href="#">Party Brochure</a></li>
+		<li><a href="#">Coupons & Specials</a></li>
+	</ul>
+</div>
+<div id="airsoft-equipment">
+	<h3>Airsoft Equipment</h3>
+	<p>Elite Airsoft offers superb customer service and an even better experience on the airsoft playing field! Get all the equipment you need here, then head out for a game with friends. Our rifles are battery-operated & rechargeable to guarantee you've got the power to come out the winner.</p>
+	<div class="five columns">
+		<h4>A Range of Airsoft Guns</h4>
+		These automatic and semi-automatic airsoft guns are fully repairable and upgradeable, electronically powered, and propelled by air for a better game. Many fully automatic rifles shoot 13-15 rounds per second, while stock rifles shoot 330-400 FPS depending on the brand. Brands include:
+		<ul>
+			<li class="alt">ICS</li>
+			<li>G & P</li>
+			<li class="alt">Classic Army</li>
+			<li>JG</li>
+			<li class="alt">King Arms</li>
+		</ul>
+		<p><small><em><strong>Please Note:</strong> The Feet Per Second limit is 400 FPS on .25 bb's  for all AEG airsoft guns and the maximum sniper rifle FPS is 500. (100 feet minumin engagement)  Bio BB's are required.</em></small></p>
+	</div>
+	<div class="five columns">
+		<h4>Airsoft Accessories & Upgrades</h4>
+		You're not ready to play without these accessories! We offer a range of rifle accessories as well as upgrades for just $35, plus parts. These upgrades make your rifle shoot faster while ensuring all pistons, gears, and electrical systems are running properly. Accessories include:
+		<ul>
+			<li>Green Gas</li>
+			<li class="alt">Optics & Sights</li>
+			<li>Suppressors</li>
+			<li class="alt">Masks</li>
+			<li>Batteries & Chargers</li>
+			<li class="alt">Tactical Gear</li>
+			<li>Magazines</li>
+			<li class="alt">Speed Loaders</li>
+			<li>Grips</li>
+			<li class="alt">Gloves</li>
+			<li>BBs</li>
+			<li class="alt">AEG Upgrade Parts</li>
+		</ul>
+	</div>
+	<div id="sponsorsHolder" class="five columns">
+		<h4>Sponsors</h4>
+		[widgets_on_pages id="Sponsors"]
+		<!-- This is a Widgets on Pages instance of the Sponsors Slideshow plugin, uses Link list -->
+		Gear up for the game by <a href="#contact-us">contacting us</a> today in Old Hickory, Tennessee. We have the airsoft accessories and guns you need!
+	</div>
+</div>
+<div id="facilities">
+	<h3>Facilities</h3>
+	<div class="five columns">
+		<div id="getOnTheField">
+			<span>&nbsp;</span>
+			<h4>Get On The Field</h4>
+		</div><br class="clear" />
+		This close-quarter, 1 1/2-acre combat field features bunkers and buildings to play a game filled with excitement! We are the only airsoft shop in the surrounding area with its own playing field. Stop by today to show off your skills.<br />Our facility also features air conditioning, televisions, restrooms and Wi-Fi for those wanting to take a break in between games or the parents wanting to watch kids play.
+	</div>
+	<div class="five columns">
+		<div id="proShop">
+			<span>&nbsp;</span>
+			<h4>ProShop, Repairs & Upgrades</h4>
+		</div><br class="clear" />
+		We sell all major brand of airsoft guns, perform repairs and upgrades. We sell a wide variety of parts, tactical gear, safety equipment and other airsoft related items. We charge $35 for labor on any major work to airsoft guns plus parts. Our turn around time is one week on most standard repairs and upgrades.
+	</div>
+	<div class="five columns">
+		<div id="miscField">
+			<span>&nbsp;</span>
+			<h4>Field Playing Tips</h4>
+		</div><br class="clear" />
+		<h5>Advised Clothing for battle</h5>
+		Thick and breathable fabrics, long sleeves, jeans and a light pair of
+gloves will help if its your first time.<br />
+		<h5>Equipment Use</h5>
+		<strong>&bull; Field fee with your own equipment</strong>: $12 + tax<br />
+		<small><strong>Note:</strong> <em>We require that you use Biodegradable BB's, they can be purchased at our field or other locations.</em></small><br /><br />
+		<strong>&bull; Rental Package</strong>: $25+ tax<br />Starter Rental Package includes:
+		<p style="text-align:center;">&bull; M4 Fully electric and automatic airsoft rifle<br />
+			&bull; Full face mask<br />
+			&bull; 1,000 rounds of bb ammunition<br />
+			&bull; All day field access!!!
+		</p>
+	</div>	
+</div>
+<div id="location">
+	<h3>Location</h3>
+		<div class="nine columns">
+			Our <strong>1 1/2-acre</strong> combat field is minutes away from many Middle Tennessee areas.<br /><br />
+			If you're planning a trip into town from far away and want to <em>get the most out</em> of your trip into the <strong>Greater Nashville</strong> area, you'll be very entertained with <strong>two</strong> large malls within a 10 minute drive, dozens of great restaurants, and plenty of other indoor, and outdoor fun for everyone!
+			<blockquote>
+				<h4>Elite Airsoft</h4>
+				3608 Old Hickory Boulevard<br />
+				Old Hickory, TN 37138-2234<br />
+				<strong>Toll Free</strong> <a href="tel:8665024929">(866) 502-4929</a><br />
+				<strong>Local</strong> <a href="tel:6158471161">(615) 847-1161</a>
+			</blockquote>
+			<strong>Proudly Serving:</strong> Nashville, Old Hickory, Hendersonville, Goodlettsville, Mount Juliet, & Lebanon
+		</div>
+		<div class="six columns">
+			<iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=3608+Old+Hickory+Blvd+Old+Hickory,+TN+37138&amp;aq=&amp;sll=36.198579,-86.655513&amp;sspn=0.349638,0.529404&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=3608+Old+Hickory+Blvd,+Old+Hickory,+Tennessee+37138&amp;ll=36.249534,-86.631403&amp;spn=0.024226,0.034332&amp;z=14&amp;iwloc=lyrftr:h,1394620803139012345,36.2414,-86.631446&amp;output=embed"></iframe><small><br /><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=3608+Old+Hickory+Blvd+Old+Hickory,+TN+37138&amp;aq=&amp;sll=36.198579,-86.655513&amp;sspn=0.349638,0.529404&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=3608+Old+Hickory+Blvd,+Old+Hickory,+Tennessee+37138&amp;ll=36.249534,-86.631403&amp;spn=0.024226,0.034332&amp;z=14&amp;iwloc=lyrftr:h,1394620803139012345,36.2414,-86.631446" style="color:#EEE;text-align:left">View Larger Map</a></small>
+		</div>
+</div>
+<div id="contact-us">
+	<h3>Contact Us</h3>
+	<div class="one_half columns">
+		<p>Thank you for your interest! Please fill out the form below, along with your email and a detailed message, to request more information about any of our services. A confirmation will appear after you click "Submit." We look forward to hearing from you.</p>
+		<p style="text-align:center;">Contact us today in Old Hickory, Tennessee, to book your party at our airsoft playing field.<br />
+			<strong>Hours of Operation</strong> Wednesday.Sunday 10 am.7 pm<br />
+			<strong>Playing Field Open</strong> to the <strong>Public</strong> on <strong>Saturday & Sunday</strong><br />
+			<strong>Private parties</strong> can play during the week just <strong>call us</strong> and set it up.
+		</p>
+		<p><strong>Follow us</strong> on <a href="#">Twitter</a>, <strong>Become a Fan</strong> of ours on <a href="#">Facebook</a>, and <strong>sign up</strong> for our <a href="#newsletter">Newsletter</a> to stay <strong>up-to-date</strong> with our latest stock, services, and special discounts!
+		</p>
+	</div>
+	<div class="one_half columns" id="home-contact">
+		[contact-form-7 id="50" title="Home Contact Form"]
+		<!-- Form Used:
+			<p><label>Your Name (required)</label>
+			    [text* your-name] </p>
+
+			<p><label>Your Email (required)</label>
+			    [email* your-email] </p>
+
+			<p><label>Subject</label>
+			    [text your-subject] </p>
+
+			<p><label>Your Message</label>
+			    [textarea your-message] </p>
+
+			<p>[submit class:lightblue class:button class:small "Send"]</p>
+		-->
+	</div>
+</div>

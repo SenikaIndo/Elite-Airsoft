@@ -1,0 +1,496 @@
+
+/* Table of Contents
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+	
+/* #Site Styles
+================================================== */
+
+
+/* @group Navigation */
+body {
+	background-color:#000;
+	color:#DDD;
+}
+strong, h1, h2, h3, h4, h5 {
+	color:#FFF;
+}
+h3 {
+	margin-top:20px;
+	border-bottom:1px solid;
+}
+#airsoft-equipment ul li {
+	display:inline-block;
+	padding-left:7px;
+}
+li.alt {
+	color:#518abc;
+}
+a:hover { color:#518abc; text-decoration:underline; }
+a { color:#6db9ff; text-decoration:none; }
+#headerContainer {
+	width:100%;
+	float:left;
+	margin:0;
+	background-color:#0e1014;
+}
+#headerWrap {
+	text-align:center;
+	background-image:url(images/headerBkg.png);
+	background-size:cover;
+	background-position:center center;
+}
+#headerWrap a img {
+	position:relative;
+	left:60px;
+}
+#headerWrap #topSocial {
+	float:right;
+	position:relative;
+	top:20px;
+	right:40px;
+}
+#headerWrap #topSocial #twitterBirds {
+	width:116px;
+	height:100px;
+	float:left;
+	background-image:url(images/twitterSprite.png);
+	background-position: center bottom;
+}
+#headerWrap #topSocial #twitterBirds:hover {
+	background-position: center top;
+}
+#headerWrap #topSocial #socialBtns {
+	position:relative;
+	width:126px;
+	bottom:12px;
+}
+#headerWrap #topSocial #socialBtns #facebook {
+	width:48px;
+	height:48px;
+	float:left;
+	background-image:url(images/facebookIcon.png);
+	background-position:center;
+	opacity:0.6;
+	margin-right:24px;
+}
+#headerWrap #topSocial #socialBtns #instagram {
+	width:48px;
+	height:48px;
+	float:left;
+	background-image:url(images/instagramIcon.png);
+	background-position:center;
+	opacity:0.6;
+}
+#headerWrap #topSocial #socialBtns #instagram:hover, #headerWrap #topSocial #socialBtns #facebook:hover {
+	opacity:1;
+}
+#navContainer {
+	width:100%;
+	float:left;
+	background-color:#060a0e;
+	margin:0;
+}
+#navContainer #navWrap {
+	background-color:#1b2635;
+}
+#navContainer #navWrap ul {
+	margin-bottom:0 !important;
+}
+#navContainer #navWrap ul li {
+	display:inline-block;
+	float:left;
+}
+#navContainer #navWrap ul li a {
+	display:inline;
+	border-bottom:none !important;
+	border-right:1px solid #000;
+	padding:10px 20px;
+	background:none !important;
+	line-height:18px;
+	text-decoration:none;
+	text-shadow:1px 1px 15px #000;
+	color:#FFF;
+	float:left;
+}
+#navContainer #navWrap ul li:hover, #navContainer #navWrap ul li.current-menu-item {
+	background-color:#0e1014;
+}
+#navigation {
+	margin-bottom: 20px;
+	clear: both;
+}
+
+#navigation ul,
+#navigation ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#slider .responsive-slider.flexslider {
+	margin-bottom:0;
+}
+#wrap > #content, #blogContainer {
+	background:url(images/bodyBottom.gif) #0e1014 no-repeat center bottom;
+}
+#bodyHolder {
+	margin:20px;
+}
+#blogContainer #content, #blogContainer #sidebar {
+	padding-top:20px;
+}
+.homeTopThree {
+	margin-bottom:20px;
+}
+div#contact-us-wrapper {
+	margin:0 10px;
+	background-color:#0e1014;
+}
+#airsoft-equipment, #facilities, #location, #contact-us {
+	width:100%;
+	float:left;
+}
+#instastream img {
+	border:2px solid #6db9ff;
+	border-radius:5px;
+	float:left;
+	margin:3px;
+}
+#sponsorsHolder p {
+	display:none;
+}
+#sponsorsHolder .sponsors_slideshow_widget {
+	margin-bottom:0;
+}
+#sponsorsHolder .sponsors_slideshow_widget div {
+	margin:0 auto;
+}
+#sponsorsHolder #Sponsors ul {
+	text-align:center;
+	margin-bottom:10px;
+}
+#facilities #getOnTheField, #facilities #proShop, #facilities #miscField {
+	width:280px;
+	height:180px;
+	background-size:cover;
+}
+#facilities #getOnTheField h4, #facilities #proShop h4, #facilities #miscField h4 {
+	text-align:center;
+	width:100%;
+	font-size:18px;
+	position:relative;
+	top:75px;
+}
+#facilities #getOnTheField span, #facilities #proShop span, #facilities #miscField span {
+	background-color:#000;
+	opacity:0.6;
+	float:left;
+	width:100%;
+	line-height:125%;
+	position:relative;
+	font-size:24px;
+	top:100px;
+}
+#facilities #getOnTheField {
+	background-image:url(images/fieldShot.png);
+}
+#facilities #proShop {
+	background-image:url(images/proShop.png);
+}
+#facilities #miscField {
+	background-image:url(images/playerDrags.png);
+}
+/* @end */
+#footerContainer {
+	width:100%;
+	float:left;
+	margin:0;
+}
+#footerWrap {
+	background:url(images/footerBkg.gif) repeat-x top center #060a0e;
+	padding:20px;
+	width:900px;
+}
+#footerWrap a img {
+	margin-right:10px;
+}
+#footerWrap #newsletter {
+	margin-top:10px;
+}
+#footerWrap #newsletter a.button {
+	top:2px;
+	display:inline-block;
+}
+#footer {
+	clear: both;
+	padding: 10px 0 10px 0;
+}
+
+
+#credits {
+	text-align: center;
+}
+
+/* #Page Styles
+================================================== */
+
+/* Layout Shortcodes */
+.full-width {width:960px; height:auto; overflow:hidden}
+
+.one_half { width: 47%; }
+.one_third { width: 30.66%; }
+.two_thirds { width: 65.33%; }
+.one_fourth { width: 22%; }
+.three_fourths { width: 74%; }
+.one_fifth { width: 16.8%; }
+.two_fifth { width: 37.6%; }
+.three_fifth { width: 58.4%; }
+.four_fifth { width: 67.2%; }
+.one_sixth { width: 13.33%; }
+.five_sixth { width: 82.67%; }
+
+.one_half,
+.one_third,
+.two_thirds,
+.three_fourths,
+.one_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth,
+.five_sixth {
+	position: relative;
+	margin-bottom: 20px;
+	float: left;
+}
+
+
+.last {margin-right:0 !important;}
+
+
+/* #Media Queries
+================================================== */
+	
+	/* iPad Portrait/Browser */
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+		#navigation ul {border-radius:0px;}
+		#navigation ul li a {font-size: .9em;padding: 10px 15px;}
+		#navigation ul {min-width: 700px;}
+		#sidebar .widget-container {margin-left: 0px;}
+		.resize {display: none;}
+		#respond textarea {width:auto;}	
+	
+		/* jigoshop styles */
+		#header .site-desc.text {font-size: 1.25em;}
+	
+	}
+	
+	
+	/* Mobile/Browser */
+	@media only screen and (max-width: 767px) {
+		
+		#headerWrap #topSocial {
+			display:none;
+		}
+		#headerWrap a img {
+			left:0;
+			width:240px;
+			position:inherit;
+		}
+		#navContainer #navWrap {
+			background:none;
+		}
+		#navContainer #navWrap ul {
+			text-align:center;
+		}
+		#navContainer #navWrap ul li {
+			float:none;
+			border-radius:6px;
+			margin:3px;
+			border-right:none;
+			font-size:14px;
+			background-color:#1B2635;
+		}
+		#navContainer #navWrap ul li a {
+			border-right:none;
+		}
+		#wrap {}
+		#header .site-desc.text {font-size: 1.25em;}
+		#navigation {margin: 10px 0px;}
+	
+		#navigation ul,
+		#navigation ul li,
+		#navigation ul li a {
+		float: none;
+		background: transparent;
+		border: none;
+		box-shadow:none;
+		-moz-box-shadow:none;
+		-webkit-box-shadow:none;
+		behavior:none;
+		}
+	
+		#navigation ul li a,
+		#navigation ul li.active a,
+		#navigation ul li a:hover,
+		#navigation ul li:hover a {
+		border: none;
+		padding: 2px 0;
+		line-height: 150%;
+		background: transparent;
+		background-image: none;
+		}
+	
+		/* Initial reset and hide sublevels in mobile view */
+	
+		#navigation ul.sub-menu,
+		#navigation ul.sub-menu li,
+		#navigation ul.sub-menu li:hover,
+		#navigation ul.sub-menu li a,
+		#navigation ul.sub-menu li a:hover
+		 {
+			display: none;
+			position: relative;
+			left: 0px;
+			line-height: 100%;
+			background: none;
+			border: none;
+			border-style: none;
+			box-shadow:none;
+			padding: 0;
+			margin: 0;
+			height: auto;
+			background-image: none;
+		}
+	
+		/* Declare new padding for submenu items */
+
+		#navigation ul.sub-menu li a,
+		#navigation ul.sub-menu li a:hover {
+			padding: 4px 0px 4px 10px;
+		}
+	
+		/* Show on hover */
+	
+		#navigation li:hover ul.sub-menu,
+		#navigation li:hover ul.sub-menu li,
+		#navigation li:hover ul.sub-menu li a {
+			display: inline-block;
+		}
+		#respond textarea {width:300px;}	
+
+
+	
+		#wrap .products li,.products li.first,.products li.last {
+	 	float: left;
+	 	clear: both;
+		margin: 20px 0px 20px 0px;
+		width: 100%;
+		}
+		#breadcrumb {display: none;}
+
+		#sidebar .widget-container {margin-left: 0px;}
+		.full-width,
+		.one_half,
+		.one_third,
+		.two_thirds,
+		.three_fourths,
+		.one_fourth,
+		.one_fifth,
+		.two_fifth,
+		.three_fifth,
+		.four_fifth,
+		.one_sixth,
+		.five_sixth {width: 100%;}
+		.resize {display: none;}
+
+	}
+	
+	/* Mobile Landscape/Browser */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		#footerWrap {
+			width:380px;
+		}
+		#footerWrap .columns {
+			margin:10px 0;
+			padding-bottom:10px;
+			border-bottom:1px solid #AAA;
+		}
+		.container .one.column, .container .two.columns, .container .three.columns, .container .four.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns, .container .ten.columns, .container .eleven.columns, .container .twelve.columns, .container .thirteen.columns, .container .fourteen.columns, .container .fifteen.columns, .container .sixteen.columns, .container .one-third.column, .container .two-thirds.column {
+			width: 420px;
+		}
+		.container .nine.columns, .container .five.columns, #facilities #getOnTheField, #facilities #proShop, #facilities #miscField {
+			width:380px;
+		}
+	}
+	
+	/* Anything smaller than standard 960 */
+	@media only screen and (max-width: 959px) {}
+	
+	/* Anything smaller than standard 960 */
+	@media only screen and (max-width: 959px) and (min-width: 768px) {
+		#footerWrap {
+			width:708px;
+		}
+	}
+	
+	/* iPad Portrait Only */
+	@media only screen and (min-width: 768px) and (max-width: 991px) and (max-device-width: 1000px) {}
+	
+	/* Mobile Only */
+	@media only screen and (max-width: 767px) and (max-device-width: 1000px) {
+		
+	}
+	
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#location .columns.nine {
+			width:322px;
+		}
+		#facilities #getOnTheField, #facilities #proShop, #facilities #miscField {
+			width: 220px;
+			height: 150px;
+			background-size: cover;
+		}
+		#facilities #getOnTheField h4, #facilities #proShop h4, #facilities #miscField h4 {
+			font-size:16px;
+		}
+	}
+	@media only screen and (min-width: 300px) and (max-width: 479px) {
+		.container .one.column, .container .two.columns, .container .three.columns, .container .four.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns, .container .ten.columns, .container .eleven.columns, .container .twelve.columns, .container .thirteen.columns, .container .fourteen.columns, .container .fifteen.columns, .container .sixteen.columns, .container .one-third.column, .container .two-thirds.column {
+			width: 300px;
+		}
+		.container .nine.columns, .container .five.columns, #facilities #getOnTheField, #facilities #proShop, #facilities #miscField, textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="input"], input[type="time"], input[type="url"], input[type="week"], #footerWrap {
+			width:260px;
+		}
+		.container .six.columns iframe, .container .six.columns iframe + small {
+			display:none;
+		}
+		#footerWrap .columns {
+			margin:10px 0;
+			padding-bottom:10px;
+			border-bottom:1px solid #AAA;
+		}
+	}
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file 
+		Just create a "fonts" folder at the root, 
+		copy your FontName into code below and remove
+		comment brackets */
+		
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
